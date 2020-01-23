@@ -1,0 +1,498 @@
+General health: 
+
+exclude employ1, children, income: 
+
+HLTHPLN1's coefficient: 0.04900181565656891
+PERSDOC2's coefficient: 0.5746998732988984
+MEDCOST's coefficient: 0.030928549542126038
+CHECKUP1's coefficient: -0.4163878211260929
+EXERANY2's coefficient: 0.02789848555000081
+SLEPTIM1's coefficient: 0.014671445983674428
+CVDINFR4's coefficient: -0.01785684976634498
+CVDCRHD4's coefficient: -0.0509359217454895
+CVDSTRK3's coefficient: 0.08112088822880069
+ASTHMA3's coefficient: -0.3225214394350372
+CHCOCNCR's coefficient: 0.19634638366389945
+CHCCOPD1's coefficient: 0.5379686034494852
+HAVARTH3's coefficient: 0.5550030558338078
+ADDEPEV2's coefficient: -0.02828664093129477
+CHCKIDNY's coefficient: 0.12102463801978976
+DIABETE3's coefficient: -0.05113560553910394
+The intercept is: 1.2662057823510902
++-------+-------------------+
+|summary|         prediction|
++-------+-------------------+
+|  count|             486303|
+|   mean|  5.473836264633339|
+| stddev| 0.8088982112539281|
+|    min|-0.8349183832346776|
+|    max|  21.47643009843881|
++-------+-------------------+
+
+HLTHPLN1's correlation coefficient: 0.02770966549989581
+PERSDOC2's correlation coefficient: 0.08571176385084207
+MEDCOST's correlation coefficient: 0.024934984421196245
+CHECKUP1's correlation coefficient: -0.08888780284863482
+EXERANY2's correlation coefficient: -0.009743579564180703
+SLEPTIM1's correlation coefficient: 0.09926872808358735
+CVDINFR4's correlation coefficient: 0.020547021631027857
+CVDCRHD4's correlation coefficient: 0.031253803091154886
+CVDSTRK3's correlation coefficient: 0.08565482490604635
+ASTHMA3's correlation coefficient: -0.08528223505966916
+CHCOCNCR's correlation coefficient: 0.07103363771415436
+CHCCOPD1's correlation coefficient: 0.13728395277485983
+HAVARTH3's correlation coefficient: 0.1262899346966864
+ADDEPEV2's correlation coefficient: 0.03279901296977287
+CHCKIDNY's correlation coefficient: 0.08863696953574512
+DIABETE3's correlation coefficient: -0.08011392380667305
+
+
+
+Consider all fields: 
+
+HLTHPLN1's coefficient: 0.07427769348953307
+PERSDOC2's coefficient: 0.5132905193293482
+MEDCOST's coefficient: 0.03792569324891334
+CHECKUP1's coefficient: -0.35458050906931554
+EXERANY2's coefficient: 0.035097374893500705
+SLEPTIM1's coefficient: 0.013462806450800325
+CVDINFR4's coefficient: -0.012562663111117176
+CVDCRHD4's coefficient: -0.060719702917446196
+CVDSTRK3's coefficient: 0.07443152575265792
+ASTHMA3's coefficient: -0.314175731845014
+CHCOCNCR's coefficient: 0.1752395211877231
+CHCCOPD1's coefficient: 0.5276274354797371
+HAVARTH3's coefficient: 0.5215811085694381
+ADDEPEV2's coefficient: -0.023639897171298815
+CHCKIDNY's coefficient: 0.11256687063080424
+DIABETE3's coefficient: -0.04658611469378264
+EMPLOY1's coefficient: 0.05994068670168948
+CHILDREN's coefficient: -0.006488159765963198
+INCOME2's coefficient: 0.011144878886903194
+The intercept is: 0.8647072812083038
++-------+-------------------+
+|summary|         prediction|
++-------+-------------------+
+|  count|             486303|
+|   mean|  5.473836264633283|
+| stddev| 0.8414955212179742|
+|    min|-0.1443400920493222|
+|    max|  21.13280262253911|
++-------+-------------------+
+
+HLTHPLN1's correlation coefficient: 0.02770966549989581
+PERSDOC2's correlation coefficient: 0.08571176385084207
+MEDCOST's correlation coefficient: 0.024934984421196238
+CHECKUP1's correlation coefficient: -0.0888878028486348
+EXERANY2's correlation coefficient: -0.009743579564180706
+SLEPTIM1's correlation coefficient: 0.09926872808358735
+CVDINFR4's correlation coefficient: 0.020547021631027857
+CVDCRHD4's correlation coefficient: 0.031253803091154886
+CVDSTRK3's correlation coefficient: 0.08565482490604635
+ASTHMA3's correlation coefficient: -0.08528223505966916
+CHCOCNCR's correlation coefficient: 0.07103363771415436
+CHCCOPD1's correlation coefficient: 0.13728395277485983
+HAVARTH3's correlation coefficient: 0.12628993469668642
+ADDEPEV2's correlation coefficient: 0.03279901296977287
+CHCKIDNY's correlation coefficient: 0.08863696953574511
+DIABETE3's correlation coefficient: -0.08011392380667307
+EMPLOY1's correlation coefficient: -0.009715026332735757
+CHILDREN's correlation coefficient: -0.007112118321469436
+INCOME2's correlation coefficient: 0.11325515127844925
+
+On checkup1, sleptim1, chccopd1, havarith3, income2:
+CHECKUP1's coefficient: -0.38562025508604314
+SLEPTIM1's coefficient: 0.014777122666947242
+CHCCOPD1's coefficient: 0.5981915367017092
+HAVARTH3's coefficient: 0.6015632115617978
+INCOME2's coefficient: 0.01191155775334725
+The intercept is: 2.0873591990235143
++-------+--------------------+
+|summary|          prediction|
++-------+--------------------+
+|  count|              486303|
+|   mean|   5.473836264633337|
+| stddev|  0.7513793837437006|
+|    min|-0.03766409053359965|
+|    max|  15.141711039918189|
++-------+--------------------+
+HECKUP1's correlation coefficient: -0.0888878028486348
+SLEPTIM1's correlation coefficient: 0.09926872808358735
+CHCCOPD1's correlation coefficient: 0.13728395277485983
+HAVARTH3's correlation coefficient: 0.1262899346966864
+INCOME2's correlation coefficient: 0.11325515127844925
+
+
+PHYSHLTH: 
+
+All fields: 
+HLTHPLN1's coefficient: 0.6631298736382782
+PERSDOC2's coefficient: 4.891615576732835
+MEDCOST's coefficient: 0.24414641972082776
+CHECKUP1's coefficient: -5.457476233268334
+EXERANY2's coefficient: -0.16795485605108482
+SLEPTIM1's coefficient: 0.17006746770995587
+CVDINFR4's coefficient: -0.09819818894834655
+CVDCRHD4's coefficient: -0.19478025684430872
+CVDSTRK3's coefficient: 0.3268793746126789
+ASTHMA3's coefficient: -2.8732006947443387
+CHCOCNCR's coefficient: 2.3107513489243763
+CHCCOPD1's coefficient: 5.246117908510328
+HAVARTH3's coefficient: 5.9437309022442815
+ADDEPEV2's coefficient: -0.18464475986605328
+CHCKIDNY's coefficient: 0.9116517435421021
+DIABETE3's coefficient: -0.650089828044869
+EMPLOY1's coefficient: 0.5922712640528214
+CHILDREN's coefficient: -0.07395193667161197
+INCOME2's coefficient: 0.12376031979465678
+The intercept is: 18.27433614263671
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean| 65.57238182779027|
+| stddev| 9.415105783270059|
+|    min|-6.910720230998837|
+|    max|221.00138870532544|
++-------+------------------+
+HLTHPLN1's correlation coefficient: 0.026785201680134204
+PERSDOC2's correlation coefficient: 0.09495510216299038
+MEDCOST's correlation coefficient: 0.021728741431492664
+CHECKUP1's correlation coefficient: -0.1358585292556919
+EXERANY2's correlation coefficient: -0.030347746549567116
+SLEPTIM1's correlation coefficient: 0.13519713226928515
+CVDINFR4's correlation coefficient: 0.025032985039014112
+CVDCRHD4's correlation coefficient: 0.04279443182829921
+CVDSTRK3's correlation coefficient: 0.09078313134295656
+ASTHMA3's correlation coefficient: -0.08887063004643668
+CHCOCNCR's correlation coefficient: 0.09066769995097297
+CHCCOPD1's correlation coefficient: 0.15972134300734842
+HAVARTH3's correlation coefficient: 0.15580020909374076
+ADDEPEV2's correlation coefficient: 0.03982233190901904
+CHCKIDNY's correlation coefficient: 0.10958071799087776
+DIABETE3's correlation coefficient: -0.10224862616397401
+EMPLOY1's correlation coefficient: -0.02207392776012944
+CHILDREN's correlation coefficient: -0.018776126381492196
+INCOME2's correlation coefficient: 0.14357128061324037
+
+On income2, CHCCOPD1, HAVARTH3, SLEPTIM1 and checkup1: 
+CHECKUP1's coefficient: -5.916406449584005
+SLEPTIM1's coefficient: 0.1855186423017323
+CHCCOPD1's coefficient: 6.051219083245332
+HAVARTH3's coefficient: 6.706461056988224
+INCOME2's coefficient: 0.13203245518185566
+The intercept is: 29.518344818787448
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean| 65.57238182779273|
+| stddev| 8.669707000580416|
+|    min|-9.333757437932888|
+|    max|169.85861828218066|
++-------+------------------+
+
+CHECKUP1's correlation coefficient: -0.13585852925569186
+SLEPTIM1's correlation coefficient: 0.13519713226928518
+CHCCOPD1's correlation coefficient: 0.15972134300734842
+HAVARTH3's correlation coefficient: 0.15580020909374076
+INCOME2's correlation coefficient: 0.1435712806132404
+
+MENTHLTH: 
+ALL fields: 
+HLTHPLN1's coefficient: -0.27045227678682077
+PERSDOC2's coefficient: -0.20121188915556648
+MEDCOST's coefficient: -0.27548778425225984
+CHECKUP1's coefficient: 0.057577498983759
+EXERANY2's coefficient: -0.7059176327787559
+SLEPTIM1's coefficient: 0.013513799360101783
+CVDINFR4's coefficient: -0.5787469471658494
+CVDCRHD4's coefficient: -0.32777849307471213
+CVDSTRK3's coefficient: -0.4415223099406876
+ASTHMA3's coefficient: 0.587514470739275
+CHCOCNCR's coefficient: -0.42212992762473767
+CHCCOPD1's coefficient: -1.9575132267785647
+HAVARTH3's coefficient: 3.1697983225259594
+ADDEPEV2's coefficient: -1.0009029761534811
+CHCKIDNY's coefficient: -0.19433320107450927
+DIABETE3's coefficient: 0.24225675134463187
+EMPLOY1's coefficient: 0.10063798715603503
+CHILDREN's coefficient: -0.015976340822679874
+INCOME2's coefficient: 0.00972000290754417
+VETERAN3's coefficient: -0.11614769838913855
+_PHYS14D's coefficient: 0.7825009749705603
+_RFHLTH's coefficient: 11.480344371431684
+The intercept is: 14.213276399097797
++-------+-------------------+
+|summary|         prediction|
++-------+-------------------+
+|  count|             486303|
+|   mean|  30.81054815619068|
+| stddev| 15.263966279921446|
+|    min|-0.5128314489916015|
+|    max| 147.67029145085056|
++-------+-------------------+
+HLTHPLN1's correlation coefficient: -0.015936349764117015
+PERSDOC2's correlation coefficient: -0.018492916250535833
+MEDCOST's correlation coefficient: -0.01688214362921054
+CHECKUP1's correlation coefficient: 0.07472372946401683
+EXERANY2's correlation coefficient: 0.032640935941662806
+SLEPTIM1's correlation coefficient: -0.04138338558526702
+CVDINFR4's correlation coefficient: -0.010148112712488314
+CVDCRHD4's correlation coefficient: -0.02134904910499865
+CVDSTRK3's correlation coefficient: -0.04012781858526482
+ASTHMA3's correlation coefficient: 0.04656513395616196
+CHCOCNCR's correlation coefficient: -0.037526150538099594
+CHCCOPD1's correlation coefficient: -0.09615708627382928
+HAVARTH3's correlation coefficient: -7.312619762857214E-5
+ADDEPEV2's correlation coefficient: -0.01818065708788768
+CHCKIDNY's correlation coefficient: -0.06782880773843793
+DIABETE3's correlation coefficient: 0.07498889626270043
+EMPLOY1's correlation coefficient: 0.028498287852039762
+CHILDREN's correlation coefficient: 0.02791762553317788
+INCOME2's correlation coefficient: -0.055741461287954056
+VETERAN3's correlation coefficient: 0.0867119718853728
+_PHYS14D's correlation coefficient: 0.1482395446839132
+_RFHLTH's correlation coefficient: 0.46923833220389205
+
+Only _RFHLTH, _PHYS14D, veteran3, diabede3, chccopd1: 
+_RFHLTH's coefficient: 11.40414954731509
+_PHYS14D's coefficient: 0.5369496137416782
+VETERAN3's coefficient: -0.1446240005303086
+DIABETE3's coefficient: 0.32613424265034163
+CHCCOPD1's coefficient: -1.886431606580032
+The intercept is: 14.55791288938445
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean|30.810548156190286|
+| stddev|15.144153559232537|
+|    min| 8.219185452205503|
+|    max| 122.9319579156381|
++-------+------------------+
+
+_RFHLTH's correlation coefficient: 0.46923833220389194
+_PHYS14D's correlation coefficient: 0.1482395446839132
+VETERAN3's correlation coefficient: 0.0867119718853728
+DIABETE3's correlation coefficient: 0.07498889626270043
+CHCCOPD1's correlation coefficient: -0.09615708627382928
+
+
+Only on _RFHLTH, _PHYS14D: 
+_RFHLTH's coefficient: 11.51477352841361
+_PHYS14D's coefficient: 0.5369569894188122
+The intercept is: 10.858458063324088
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean| 30.81054815619021|
+| stddev|15.086402888506774|
+|    min| 22.91018858115651|
+|    max|119.32403272381589|
++-------+------------------+
+
+_RFHLTH's correlation coefficient: 0.46923833220389194
+_PHYS14D's correlation coefficient: 0.1482395446839132
+
+
+POORHLTH
+HLTHPLN1's coefficient: -0.019174335321021356
+PERSDOC2's coefficient: -0.7455091437162666
+MEDCOST's coefficient: -0.16603617669995746
+CHECKUP1's coefficient: -2.5908404404619354
+EXERANY2's coefficient: -1.231219892960997
+SLEPTIM1's coefficient: 0.004916449755939098
+CVDINFR4's coefficient: -0.4228683814441179
+CVDCRHD4's coefficient: 0.36652982512155025
+CVDSTRK3's coefficient: -0.31859478923255985
+ASTHMA3's coefficient: 0.6977784045612001
+CHCOCNCR's coefficient: 0.18372277584641578
+CHCCOPD1's coefficient: -1.0656907035020398
+HAVARTH3's coefficient: -1.05352524045055
+ADDEPEV2's coefficient: -0.12408349858062537
+CHCKIDNY's coefficient: 0.07707506604445706
+DIABETE3's coefficient: 0.07144344665958283
+EMPLOY1's coefficient: -0.24742126506347986
+CHILDREN's coefficient: 0.004287364397212579
+INCOME2's coefficient: -0.002333475205464094
+VETERAN3's coefficient: -0.9142959345405735
+_PHYS14D's coefficient: 8.3387333298029
+_RFHLTH's coefficient: 7.64688585770225
+The intercept is: 18.15346416673285
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean| 29.99406748467519|
+| stddev|15.585004100277631|
+|    min|-32.16681995411125|
+|    max|159.41730073627704|
++-------+------------------+
+HLTHPLN1's correlation coefficient: 0.012732796359331895
+PERSDOC2's correlation coefficient: -0.04049958081219476
+MEDCOST's correlation coefficient: 0.011834999945556837
+CHECKUP1's correlation coefficient: 0.01790567453806513
+EXERANY2's correlation coefficient: 0.014434818705526082
+SLEPTIM1's correlation coefficient: -0.04940373955078963
+CVDINFR4's correlation coefficient: -6.848543395321669E-4
+CVDCRHD4's correlation coefficient: -0.004587470208144498
+CVDSTRK3's correlation coefficient: -0.040349074254820115
+ASTHMA3's correlation coefficient: 0.048623557398811926
+CHCOCNCR's correlation coefficient: -0.01886624407726998
+CHCCOPD1's correlation coefficient: -0.04677757961074147
+HAVARTH3's correlation coefficient: -0.07481039440219509
+ADDEPEV2's correlation coefficient: -0.004435050460223253
+CHCKIDNY's correlation coefficient: -0.022954850245025357
+DIABETE3's correlation coefficient: 0.021805099049516816
+EMPLOY1's correlation coefficient: -0.03185497788518505
+CHILDREN's correlation coefficient: -0.029891933432313913
+INCOME2's correlation coefficient: -0.04835736663246146
+VETERAN3's correlation coefficient: -0.011579241617009843
+_PHYS14D's correlation coefficient: 0.3413779565229817
+_RFHLTH's correlation coefficient: 0.33109936733921214
+
+Only on _RFHLTH, _PHYS14D: 
+_RFHLTH's coefficient: 7.1356913423587045
+_PHYS14D's coefficient: 8.31551511665358
+The intercept is: 5.323351126682858
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean|29.994067484677764|
+| stddev| 15.17115394934401|
+|    min|20.774557585695142|
+|    max|144.38420925779346|
++-------+------------------+
+
+_RFHLTH's correlation coefficient: 0.3310993673392122
+_PHYS14D's correlation coefficient: 0.3413779565229816
+
+
+For question 3: 
+
+HLTHPLN1's coefficient: 0.018599478321940557
+PERSDOC2's coefficient: 0.12334761646076003
+MEDCOST's coefficient: 0.013853362312592175
+CHECKUP1's coefficient: 0.09976278999730576
+EXERANY2's coefficient: 0.0448196864638663
+SLEPTIM1's coefficient: 2.1671320815013604E-4
+CVDINFR4's coefficient: -0.014419001105406696
+CVDCRHD4's coefficient: -0.056134742587781665
+CVDSTRK3's coefficient: 0.036466977063814986
+ASTHMA3's coefficient: -0.05775527529025948
+CHCOCNCR's coefficient: -0.020678028365192804
+CHCCOPD1's coefficient: 0.039951514113293854
+HAVARTH3's coefficient: 0.14858323264816756
+ADDEPEV2's coefficient: -0.029695599393801664
+CHCKIDNY's coefficient: 0.04240477844536034
+DIABETE3's coefficient: 0.020107027845284793
+EMPLOY1's coefficient: 0.01216726726391875
+CHILDREN's coefficient: -8.673623100901471E-4
+INCOME2's coefficient: 0.001513236962359886
+VETERAN3's coefficient: 0.011624585241009672
+_PHYS14D's coefficient: 0.14403173491666182
+_RFHLTH's coefficient: 0.08202388446904293
+PHYSHLTH's coefficient: 0.07459117349714656
+MENTHLTH's coefficient: -0.02759179141744603
+POORHLTH's coefficient: -0.00639074947048086
+The intercept is: 0.3887254715879499
++-------+-------------------+
+|summary|         prediction|
++-------+-------------------+
+|  count|             486303|
+|   mean|  5.473836264633375|
+| stddev| 2.9513045392276314|
+|    min|-1.7969221009911127|
+|    max| 11.408224225663044|
++-------+-------------------+
+
+HLTHPLN1's correlation coefficient: 0.027709665499895814
+PERSDOC2's correlation coefficient: 0.08571176385084209
+MEDCOST's correlation coefficient: 0.024934984421196245
+CHECKUP1's correlation coefficient: -0.08888780284863482
+EXERANY2's correlation coefficient: -0.009743579564180704
+SLEPTIM1's correlation coefficient: 0.09926872808358735
+CVDINFR4's correlation coefficient: 0.020547021631027857
+CVDCRHD4's correlation coefficient: 0.031253803091154886
+CVDSTRK3's correlation coefficient: 0.08565482490604637
+ASTHMA3's correlation coefficient: -0.08528223505966916
+CHCOCNCR's correlation coefficient: 0.07103363771415434
+CHCCOPD1's correlation coefficient: 0.13728395277485983
+HAVARTH3's correlation coefficient: 0.12628993469668642
+ADDEPEV2's correlation coefficient: 0.03279901296977287
+CHCKIDNY's correlation coefficient: 0.08863696953574512
+DIABETE3's correlation coefficient: -0.08011392380667307
+EMPLOY1's correlation coefficient: -0.009715026332735757
+CHILDREN's correlation coefficient: -0.007112118321469437
+INCOME2's correlation coefficient: 0.11325515127844925
+VETERAN3's correlation coefficient: -0.10387972744206107
+_PHYS14D's correlation coefficient: -0.14677351024816054
+_RFHLTH's correlation coefficient: -0.3811384456115774
+PHYSHLTH's correlation coefficient: 0.8194634427793099
+MENTHLTH's correlation coefficient: -0.6330044278975129
+POORHLTH's correlation coefficient: -0.47316350071837
+
+HLTHPLN1's coefficient: 0.12082287182252954
+PERSDOC2's coefficient: 1.1702612118805698
+MEDCOST's coefficient: -0.016145650529388836
+CHECKUP1's coefficient: -2.0935266388791844
+EXERANY2's coefficient: 0.08936716038948861
+SLEPTIM1's coefficient: 0.05935913869280372
+CVDINFR4's coefficient: 0.1735940542817629
+CVDCRHD4's coefficient: 0.19143219901101377
+CVDSTRK3's coefficient: -0.050929081603492424
+ASTHMA3's coefficient: -0.32823056576336457
+CHCOCNCR's coefficient: 0.89622757123967
+CHCCOPD1's coefficient: 0.9624830349467159
+HAVARTH3's coefficient: 1.6296879198297942
+ADDEPEV2's coefficient: 0.18513786934157073
+CHCKIDNY's coefficient: 0.4001433288349849
+DIABETE3's coefficient: -0.060357621304410435
+EMPLOY1's coefficient: 0.020439971788409984
+CHILDREN's coefficient: 0.0013921854607460659
+INCOME2's coefficient: 0.0200618590499202
+VETERAN3's coefficient: -0.3374127238816445
+_PHYS14D's coefficient: -1.4825542151310025
+_RFHLTH's coefficient: -2.360214814098451
+GENHLTH's coefficient: 6.9225761639491346
+MENTHLTH's coefficient: 0.016699417326307746
+POORHLTH's coefficient: 0.0037998790904003902
+The intercept is: 20.948231640095987
++-------+------------------+
+|summary|        prediction|
++-------+------------------+
+|  count|            486303|
+|   mean| 65.57238182779038|
+| stddev|  26.0226337104961|
+|    min|-1.535684022901787|
+|    max|126.93257027029956|
++-------+------------------+
+
+HLTHPLN1's correlation coefficient: 0.026785201680134204
+PERSDOC2's correlation coefficient: 0.0949551021629904
+MEDCOST's correlation coefficient: 0.021728741431492667
+CHECKUP1's correlation coefficient: -0.1358585292556919
+EXERANY2's correlation coefficient: -0.030347746549567112
+SLEPTIM1's correlation coefficient: 0.13519713226928515
+CVDINFR4's correlation coefficient: 0.025032985039014116
+CVDCRHD4's correlation coefficient: 0.04279443182829922
+CVDSTRK3's correlation coefficient: 0.09078313134295656
+ASTHMA3's correlation coefficient: -0.08887063004643668
+CHCOCNCR's correlation coefficient: 0.09066769995097297
+CHCCOPD1's correlation coefficient: 0.15972134300734844
+HAVARTH3's correlation coefficient: 0.15580020909374076
+ADDEPEV2's correlation coefficient: 0.03982233190901904
+CHCKIDNY's correlation coefficient: 0.10958071799087776
+DIABETE3's correlation coefficient: -0.102248626163974
+EMPLOY1's correlation coefficient: -0.022073927760129446
+CHILDREN's correlation coefficient: -0.018776126381492203
+INCOME2's correlation coefficient: 0.14357128061324037
+VETERAN3's correlation coefficient: -0.14977276007760681
+_PHYS14D's correlation coefficient: -0.2075172810710107
+_RFHLTH's correlation coefficient: -0.4197811478360114
+GENHLTH's correlation coefficient: 0.8194634427793099
+MENTHLTH's correlation coefficient: -0.5301461581769225
+POORHLTH's correlation coefficient: -0.4059157607476386
